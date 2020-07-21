@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cardbox_app',
     'user_app',
+
 ]
 
 MIDDLEWARE = [

@@ -28,4 +28,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# virtualenv
+.venv
+venv/
+
+
 # End of https://www.toptal.com/developers/gitignore/api/windows
