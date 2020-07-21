@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+  {% block css %}
+  {% endblock %}
+
+
+
+        <!-- links -->
+        {% block nav-bar %}
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#" class="scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#" class="scroll-link">Design templates</a>
+            </li>
+            <li>
+              <a href="#" class="scroll-link">Gallery</a>
+            </li>
+            <li>
+              <a href="#" class="scroll-link">Help</a>
+            </li>
+          </ul>
+        </div>
+        {% endblock %}
+
+    <!-- banner -->
+    {% block media_content %}
+    <div class="banner">
+        <div class="container">
+          <h1>Card Box</h1>
+          <p>
+            Easily customize greeting cards for every event. Print or send as eCard for free!
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">Design your card</a>
+        </div>
+      </div>
+    </header>
+    <div class="card">
+      <div class="business">
+        <img src="{% static 'images/business-card.jpg' %}" alt="">
+        <h4>business-card</h4>
+      </div>
+      <div class="bannner">
+        <img src="{% static 'images/banner.jpg' %}" alt="">
+        <h4>Banner-design</h4>
+      </div>
+      <div class="filter">
+        <img src="{% static 'images/filter.jpg' %}" alt="">
+        <h4>Filter pictures</h4>
+      </div>
+    </div>
+    {% endblock %}
+
+
+{% block js %}
+{% endblock %}
